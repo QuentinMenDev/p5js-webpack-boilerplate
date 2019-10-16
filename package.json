@@ -13,7 +13,7 @@
     "boilerplate"
   ],
   "author": "Quentin Mennecart <quentin.mennecart@gmail.com>",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
     "p5": "^0.10.2"
