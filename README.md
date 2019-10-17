@@ -24,7 +24,11 @@ To start using your creative side, just go in the sketch folder and start using 
 
 #### How to add a p5js function?
 
-You will need to export the specific function. For example, to be able to use the `mousePressed()` function, you will need to write in `index.js`:
+You will need to export the specific function in `index.js`. 
+
+Example: to be able to use the `mousePressed()` function:
+
+*in index.js*
 
 ```js
 export function mousePressed() {
