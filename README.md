@@ -1,6 +1,7 @@
 # p5js-webpack-boilerplate
 
-A p5js boilerplate with webpack.
+This project is a boilerplate of p5js integration with webpack. It is set so p5js is declared global (so no instanciation). This project comes with the addon `p5.sound`.
+The canvas is set so it takes the full size of the screen with no margin/padding.
 
 ## Getting Started
 
@@ -16,6 +17,19 @@ Install the dependencies and you are done!
 
 ```
 $ npm install
+```
+### Start coding!
+
+To start using your creative side, just go in the sketch folder and start using the index.js file. It already contains the functions `preload()`, `setup()` and `draw()`.
+
+#### How to add a p5js function?
+
+You will need to export the specific function. For example, to be able to use the `mousePressed()` function, you will need to write in `index.js`:
+
+```js
+export function mousePressed() {
+  // Your code here
+}
 ```
 
 ## Development
