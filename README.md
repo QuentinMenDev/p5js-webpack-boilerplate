@@ -1,6 +1,6 @@
-# p5js-webpack-boilerplate
+# p5js-webpack-boilerplate (p5js global mode)
 
-This project is a boilerplate of p5js integration with webpack. It is set so p5js is declared global (so no instanciation). This project comes with the addon `p5.sound`.
+This project is a boilerplate of p5js (in global mode) integration with webpack. It is set so p5js is declared global (so no instanciation). This project comes with the addon `p5.sound`.
 The canvas is set so it takes the full size of the screen with no margin/padding.
 
 ## Getting Started
