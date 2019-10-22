@@ -1,12 +1,9 @@
-export function preload() {
+import preload from './p5/preload'
+import setup from './p5/setup'
+import draw from './p5/draw'
 
-}
-
-export function setup() {
-  createCanvas(windowWidth, windowHeight)
-  background(200)
-}
-
-export function draw() {
-  ellipse(mouseX, mouseY, 20, 20)
+export {
+  preload, 
+  setup, 
+  draw
 }
