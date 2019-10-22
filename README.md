@@ -24,6 +24,41 @@ To start using your creative side, just go in the sketch folder and start using 
 
 #### How to add a p5js function?
 
+You have multiple ways of doing it:
+
+***Way 1 (intended one):***
+
+1. Create a new .js file in the sketch/p5 folder. I recommend to name it as the name of the function.
+2. Export the function from that new file with `export default`.
+3. In `index.js`, import the function and add it to the list of exported functions.
+4. Enjoy!
+
+__Example:__
+
+Let's use the function `mousePressed()`:
+
+*in `mousePressed.js`*
+
+```js
+export default function mousePressed() {
+  // Write your code here
+}
+```
+
+*in `index.js`*
+
+```js
+// ...
+import mousePressed from './mousePressed'
+
+export {
+  // ...
+  mousePressed
+}
+```
+
+***Way 2:***
+
 You will need to export the specific function in `index.js`. 
 
 Example: to be able to use the `mousePressed()` function:
